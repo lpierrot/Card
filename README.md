@@ -1,2 +1,2 @@
 # Card
-Creating a cards and styling them. 
+Creating cards and styling them. 

@@ -1,0 +1,40 @@
+body {
+  background-color: #eff5f5;
+}
+h4 {
+  text-align: center;
+  background-color: rgba(45, 45, 45, 0.1); /* change this color */
+  padding: 10px;
+  font-size: 27px;
+}
+p {
+  text-align: justify;
+}
+.links {
+  text-align: left;
+  color: hsl(0, 0%, 99%);
+  opacity: 0.7;
+}
+#thumbnail {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.fullCard {
+  background-color: #000000;
+  width: 245px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  padding: 1em;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.cardContent {
+  padding: 10px;
+}
+.cardText {
+  margin-bottom: 30px;
+  color: white;
+}
