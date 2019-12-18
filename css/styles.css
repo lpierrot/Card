@@ -1,5 +1,17 @@
+ * {
+  box-sizing: border-box;
+}
 body {
-  background-color: #eff5f5;
+  background-color: #f3ececef;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 60px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: auto;
+  background-color: #b1b1a191;
 }
 h4 {
   text-align: center;
@@ -10,31 +22,28 @@ h4 {
 p {
   text-align: justify;
 }
+
 .links {
   text-align: left;
-  color: hsl(0, 0%, 99%);
+  color: black;
   opacity: 0.7;
 }
-#thumbnail {
+/* #thumbnail {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
+} */
 .fullCard {
-  background-color: #000000;
+  background-color: whitesmoke;
   width: 245px;
   border: 1px solid #ccc;
   border-radius: 1em;
   padding: 1em;
   margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .cardContent {
   padding: 10px;
 }
 .cardText {
   margin-bottom: 30px;
-  color: white;
+  color: black;
 }
